@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>KeepAlive</key>
+        <true/>
+        <key>Label</key>
+        <string>com.jupyterlab</string>
+        <key>ProgramArguments</key>
+        <array>
+                <string>jupyter</string>
+                <string>lab</string>
+                <string>--notebook-dir=~/jupyter</string>
+                <string>--no-browser</string>
+                <string>--port</string>
+                <string>8888</string>
+                <string>--ip='*'</string>
+                <string>--NotebookApp.token=''</string>
+                <string>--NotebookApp.password=''</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+</dict>
+</plist>
